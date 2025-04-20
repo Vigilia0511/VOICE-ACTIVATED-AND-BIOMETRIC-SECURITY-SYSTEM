@@ -19,7 +19,7 @@
             $_SESSION['user_id']= $fetcuser['user_id'];
             $_SESSION['username']= $fetcuser['username'];
             $_SESSION['position']= $fetcuser['position'];
-            header("Location: home.php");
+            header("Location: dashboard.php");
         }
     }
 ?>
